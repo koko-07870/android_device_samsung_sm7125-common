@@ -184,6 +184,9 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # FM
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
