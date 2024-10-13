@@ -88,15 +88,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "TASchedtuneBoost",
-      "Path": "/dev/stune/top-app/schedtune.boost",
-      "Values": [
-        "20",
-        "10"
-      ],
-      "ResetOnInit": true
-    },
-    {
         "Name": "TouchscreenEnable",
         "Path": "/sys/class/sec/tsp/input/enabled",
         "Values": [
@@ -247,12 +238,6 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "TASchedtuneBoost",
-      "Duration": 0,
-      "Value": "20"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "CPUBWHystTriggerCount",
       "Duration": 0,
       "Value": "0"
@@ -279,13 +264,13 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 5000,
-      "Value": "1900800"
+      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 5000,
-      "Value": "1708800"
+      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
